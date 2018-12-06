@@ -22,7 +22,7 @@ public class LoginPage extends PageObject {
 	@FindBy(xpath = "//*[@id=\"login\"]/form/button")
 	public WebElementFacade btnButton;
 	
-	@FindBy(id = "Muchas gracias por su comentario.")
+	@FindBy(id = "//*[@id=\"container\"]/form/h2")
 	public WebElementFacade lbltitulo;
 
 	public void RealizarLogin(String user, String pass) {

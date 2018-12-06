@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Contactenos Universidad EAFIT" skipped="0" tests="1" time="17.53" timestamp="2018-12-06 02:35:33"><testcase name="Envio comentario Universidad EAFIT"><error message="Index: 5, Size: 5" type="java.lang.IndexOutOfBoundsException">Index: 5, Size: 5</error><system-err>Index: 5, Size: 5&#13;
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Contactenos Universidad EAFIT" skipped="0" tests="1" time="19.79" timestamp="2018-12-06 02:47:53"><testcase name="Envio comentario Universidad EAFIT"><error message="Index: 5, Size: 5" type="java.lang.IndexOutOfBoundsException">Index: 5, Size: 5</error><system-err>Index: 5, Size: 5&#13;
 co.com.eafit.pageobject.contactanosEafitPage.nuevoComentario(contactanosEafitPage.java:50)&#13;
 co.com.eafit.steps.contactanosEafitStep.diligenciarComentario(contactanosEafitStep.java:20)&#13;
 co.com.eafit.definitions.contactanosDefinition.elDiligenciaElComentario(contactanosDefinition.java:24)&#13;
