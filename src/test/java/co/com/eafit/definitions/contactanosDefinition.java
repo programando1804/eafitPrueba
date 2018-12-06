@@ -25,7 +25,7 @@ public class contactanosDefinition {
 	  
 	}
 
-	@Then("^el visualiza el pantalla b el mensaje (.*)$")
+	@Then("^el visualiza el pantalla el mensaje (.*)$")
 	public void elVisualizaElPantallaElMensajeMuchasGraciasPorSuComentario(String mensajeExitoso) throws Exception {
 		ContactanosEafitStep.mensajeComentarioExitoso(mensajeExitoso);
 		

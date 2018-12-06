@@ -43,12 +43,12 @@ public class contactanosEafitPage extends PageObject{
 		// TODO Auto-generated method stub
 		List<List<String>> date = dtDatos.raw();
 		getDriver().switchTo().frame(0);
-		txtNombre.sendKeys(date.get(1).get(1));
-		txtCorreo.sendKeys(date.get(1).get(2));
-		txTelefono.sendKeys(date.get(1).get(3));
-		txtCiudad.sendKeys(date.get(1).get(4));
-		txtComentario.sendKeys(date.get(1).get(5));
-		txtNombre.click();
+		txtNombre.sendKeys(date.get(1).get(0));
+		txtCorreo.sendKeys(date.get(1).get(1));
+		txTelefono.sendKeys(date.get(1).get(2));
+		txtCiudad.sendKeys(date.get(1).get(3));
+		txtComentario.sendKeys(date.get(1).get(4));
+		btnEnviar.click();
 		
 	}
 
